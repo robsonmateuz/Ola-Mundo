@@ -3,7 +3,10 @@ o texto esta centralizado e com fonte tamanho 40 pixels...
 h2 esta num tom de azul mais solido com fonte tamanho 15 pixels e centralizado...
 h3 esta na cor azul com fonte tamanho 16 pixels e o texto esta centralizado*/
 
-body {background: azure;}
+body {background: azure;
+    /*aqui foi escrito a margem top right bottom e left na sequencia*/
+    margin: 70px 50px 10px 70px;
+    }
 
 h1 {
     color: blue;
@@ -12,27 +15,40 @@ h1 {
     border: 1px solid skyblue;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-decoration: none;
-    font-style: oblique;}
+    font-style: oblique;
+    padding: 10px 10px 10px 30px;}
 
 h2 {
-    color: #267BD9;
-    font-size: 100%;
+    color: blue;
+    font-size: 90%;
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
 
 h3 {color: blue;
-    font-size: 100%;
+    font-size: 90%;
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+
+span.empresa {color: crimson;}
+
+span.objetivo {color: crimson;}
+
+#valores {background: azure;
+          color: blue;}
+
+p {color: blue;
+   font-style: normal;
+   font-size: x-large;}
 
 table, tr, td {border: 2px solid blue;}
 
 table {border-collapse: collapse;
-       width: 100%;}
+       width: 100%;
+       color: blue}
 
-tr {height: 30px;}
+tr {height: 30px; color: blue;}
 
-td {padding: 10px;}
+td {padding: 10px; color: blue;}
 
 /*a:link para links nao visitados*/
 a:link {color: #FF0000}
@@ -43,3 +59,20 @@ a:hover {color: #00FF00}
 /*a:active para links ativos*/
 a:active {color: #0000FF}
 /*a sequencia dos links precisa ser exatamente esta do .css*/
+
+#consultoria {position: absolute;
+              top: 600px;
+              left: 130px;
+              width: 50px;
+              height: 50px;}
+
+#assessoria {position: absolute;
+             top: 630px;
+             right: 600px;
+             width: 50px;
+             height: 50px;}
+
+#informacao {position: relative;
+             top: 350px;
+             color: blue;
+             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
