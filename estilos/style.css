@@ -3,27 +3,43 @@ o texto esta centralizado e com fonte tamanho 40 pixels...
 h2 esta num tom de azul mais solido com fonte tamanho 15 pixels e centralizado...
 h3 esta na cor azul com fonte tamanho 16 pixels e o texto esta centralizado*/
 
-body {background-color: aliceblue;}
+body {background: azure;}
 
 h1 {
     color: blue;
     text-align: center;
-    font-size: 40px;
+    font-size: xx-large;
     border: 1px solid skyblue;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    font-style: oblique;}
 
 h2 {
-    color: cornflowerblue;
-    font-size: 15px;
+    color: #267BD9;
+    font-size: 100%;
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
 
 h3 {color: blue;
-    font-size: 16px;
+    font-size: 100%;
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
 
-a:link {color: blue}
-a:hover {color: black}
-a:visited {color: red}
-a:active {color: aqua}
+table, tr, td {border: 2px solid blue;}
+
+table {border-collapse: collapse;
+       width: 100%;}
+
+tr {height: 30px;}
+
+td {padding: 10px;}
+
+/*a:link para links nao visitados*/
+a:link {color: #FF0000}
+/*a:visited para links ao passar o mouse*/
+a:visited {color: #FF00FF}
+/*a:hover para links visitados*/
+a:hover {color: #00FF00}
+/*a:active para links ativos*/
+a:active {color: #0000FF}
+/*a sequencia dos links precisa ser exatamente esta do .css*/
