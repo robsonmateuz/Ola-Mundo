@@ -3,20 +3,19 @@ o texto esta centralizado e com fonte tamanho 40 pixels...
 h2 esta num tom de azul mais solido com fonte tamanho 15 pixels e centralizado...
 h3 esta na cor azul com fonte tamanho 16 pixels e o texto esta centralizado*/
 
-body {background: azure;
+body {background: white;
     /*aqui foi escrito a margem top right bottom e left na sequencia*/
-    margin: 70px 50px 10px 70px;
+    margin: 50px 50px 10px 70px;
     }
 
 h1 {
     color: blue;
     text-align: center;
     font-size: xx-large;
-    border: 1px solid skyblue;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-decoration: none;
     font-style: oblique;
-    padding: 10px 10px 10px 30px;}
+    padding: 30px 30px 30px 30px;}
 
 h2 {
     color: blue;
@@ -33,7 +32,7 @@ span.empresa {color: crimson;}
 
 span.objetivo {color: crimson;}
 
-#valores {background: azure;
+#valores {background: white;
           color: blue;}
 
 p {color: blue;
@@ -76,3 +75,23 @@ a:active {color: #0000FF}
              top: 350px;
              color: blue;
              font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+
+#Menu ul li {display: inline;}
+
+#Menu ul li a {float: left;
+               width: 87px;
+               height: 80px;
+               display: block;
+               font-size: 12px;
+               font-weight: bold;
+               text-align: center;
+               text-decoration: none;
+               background: url(menu.jpg) no-repeat scroll 0 0 transparent;}
+
+#Menu ul li.Home a {background-position: 0px 0px;}
+#Menu ul li.Agenda a {background-position: -91px 0px;}
+#Menu ul li.Contato a {background-position: -177px 0px;}
+
+#Menu ul li.Home a:hover {background-position: 0px -78px;}
+#Menu ul li.Agenda a:hover {background-position: -91px -78px;}
+#Menu ul li.Contato a:hover {background-position: -181px -78px;}
