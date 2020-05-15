@@ -1,6 +1,3 @@
-# Olá, Mundo!
- Primeiro Repositório do Curso Git e GitHub
+# Alliance Consultoria & Assessoria
 
- Repositório criado durante live de Gustavo Guanabara.
- 
- Essa linha eu adicionei diretamente no site do GitHub.
+Repositório criado para desenvolvimento do site da Alliance Consultoria & Assessoria.
